@@ -1,0 +1,92 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+#about-sec{
+	
+}
+.container{
+	
+}
+.row{
+	display:flex;
+	flex-wrap:no wrap;
+	
+}
+.col,.col1{
+	width:50%;
+}
+.abt-grp{
+	margin-left:180px;
+	margin-top:50px;
+}
+.image {
+	height:520px;
+	width:400px;
+	position:relative;
+}
+.image1{
+	position:absolute;
+	top:105px;
+	left:45px;
+	z-index:-1;
+}
+.image2{
+	position:absolute;
+	top:200px;
+	left:495px;
+	z-index:1;
+}
+.carrier{
+	position:absolute;
+	margin-top:100px;
+	right:150px;
+}
+.student{
+	border-radius:50%;
+	height:60px;
+	width:60px;
+	background-color:#ffe6f2;
+}
+.student1{
+	border-radius:50%;
+	height:60px;
+	width:60px;
+	background-color:#cce0ff;
+}
+.img{
+	padding:15px;
+	justify-content:center;
+	align-items:center;
+}
+.instructor{
+	margin-left:80px;
+	margin-top:-55px;
+}
+.course{
+	margin-left:80px;
+	margin-top:-55px;
+}
+.community{
+	margin-left:80px;
+	margin-top:-55px;
+}
+a{
+	text-decoration:none;
+	color:white;
+	background-color:#3333cc;
+	padding:20px 40px 20px 40px;
+	border-radius:5px;
+	
+}
+h1,h5,h3{
+	font-family: 'Roboto', sans-serif;
+}
+h5{
+	color:#3333cc;
+	font-size:15px;
+}
+h1{
+	font-size:28px;
+}
